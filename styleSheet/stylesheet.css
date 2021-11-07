@@ -1,0 +1,133 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#page-logo a{
+    padding: 10px;
+    font-family: "Oleo script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(255,251, 0);
+    text-shadow: 1px 1px 1px rgb(231, 198, 198);
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+ul a:hover{
+    color: rgb(77,77, 77);
+    background-color: rgb(255,251, 0);
+}
+header ul{
+    display: flex;
+}
+
+header li {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#home-part-One{
+    height: 500px;
+    background-image: url("../images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home-part-One > div{
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 auto;
+    position: relative;
+    top:150px;
+}
+
+#home-part-One > div > h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+#home-part-One div > p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+
+#home-part-One div > a{
+    text-decoration: none;
+    background-color: rgb(225, 251, 0);
+    padding: 6px 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    box-shadow: 4px 8p rgb(68, 67, 67);
+}
+
+#home-part-One div > a:hover{
+    background-color: rgb(95, 105, 4);
+}
+#home-part-Two {
+    padding: 10px;
+    background:linear-gradient(0deg, rgb(227,223,253),rgb(202,243,240))
+}
+
+#home-part-Two ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+#home-part-Two h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24;
+    color: rgb(123, 123, 123);
+}
+#home-part-Two p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24;
+    color: rgb(123, 123, 123);
+    margin: 20px 0;
+}
+
+#home-part-Two p strong {
+    color: rgb(0, 100, 107);
+}
+#home-part-Two ul li img{
+    height: 200px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
