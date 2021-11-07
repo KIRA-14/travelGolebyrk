@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58, 58));
+    margin: auto;
+}
+header{
+    position: static;
+}
+main ul li{
+    width: 98%;
+    margin: 0 auto;
+}
+
+main ul li img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+main ul li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0,0, 0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions{
+    text-align: right;
+}
+div>a {
+    color: rgb(22,211, 228);
+}
+ul>li>div>a:hover {
+    color: rgb(173, 220, 224);
+}
