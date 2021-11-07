@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58, 58));
-    margin: auto;
+    color: rgb(68,68, 68);
 }
 header{
     position: static;
@@ -33,9 +33,11 @@ main ul li {
 .actions{
     text-align: right;
 }
-div>a {
+.actions a{
     color: rgb(22,211, 228);
 }
-ul>li>div>a:hover {
-    color: rgb(173, 220, 224);
+.actions a:hover{
+    text-align: right;
+    background-color: rgb(173, 220, 224);
+
 }
